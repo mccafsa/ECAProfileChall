@@ -1,0 +1,19 @@
+uuid: 6ac5924b-5072-45fa-a726-a4752885ce20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_staff_address
+    - node.type.staff_profile
+id: node.staff_profile.field_staff_address
+field_name: field_staff_address
+entity_type: node
+bundle: staff_profile
+label: 'Office address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

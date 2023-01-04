@@ -1,0 +1,19 @@
+uuid: 6fb88312-49cc-49a4-ae00-9bc2545ec67a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_staff_name
+    - node.type.staff_profile
+id: node.staff_profile.field_staff_name
+field_name: field_staff_name
+entity_type: node
+bundle: staff_profile
+label: 'Name '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

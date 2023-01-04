@@ -1,0 +1,20 @@
+uuid: 102c75d0-9ccf-4a72-b966-7769fced1688
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_assoc_programmes
+field_name: field_assoc_programmes
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

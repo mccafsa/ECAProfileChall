@@ -1,0 +1,29 @@
+uuid: 52a66f7c-6d23-4f10-9254-da0cca3be156
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_schools
+    - node.type.staff_profile
+    - taxonomy.vocabulary.school
+id: node.staff_profile.field_schools
+field_name: field_schools
+entity_type: node
+bundle: staff_profile
+label: Schools
+description: 'Enter school name may want to search on  '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      school: school
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

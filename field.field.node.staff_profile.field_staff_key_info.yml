@@ -1,0 +1,21 @@
+uuid: 50d3ab61-477d-43ca-9e77-38976df04e51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_staff_key_info
+    - node.type.staff_profile
+  module:
+    - text
+id: node.staff_profile.field_staff_key_info
+field_name: field_staff_key_info
+entity_type: node
+bundle: staff_profile
+label: 'Contact me about'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
