@@ -1,0 +1,21 @@
+uuid: f9ef51c8-3280-4c0c-9b3d-10260a1e0894
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_assoc_programmes
+    - node.type.staff_profile
+  module:
+    - text
+id: node.staff_profile.field_assoc_programmes
+field_name: field_assoc_programmes
+entity_type: node
+bundle: staff_profile
+label: 'Associated programmes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
