@@ -1,0 +1,22 @@
+uuid: 8f9bae40-b5b4-4285-971f-851ad192fd4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - my_sub_olivero
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: my_sub_olivero_help
+theme: my_sub_olivero
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

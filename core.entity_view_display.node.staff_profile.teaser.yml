@@ -1,0 +1,50 @@
+uuid: 5512da48-41a5-45fd-88da-5f3803032bdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.staff_profile.body
+    - field.field.node.staff_profile.field_assoc_programmes
+    - field.field.node.staff_profile.field_job_title
+    - field.field.node.staff_profile.field_schools
+    - field.field.node.staff_profile.field_staff_address
+    - field.field.node.staff_profile.field_staff_bio
+    - field.field.node.staff_profile.field_staff_email
+    - field.field.node.staff_profile.field_staff_key_info
+    - field.field.node.staff_profile.field_staff_name
+    - field.field.node.staff_profile.field_staff_phone
+    - field.field.node.staff_profile.field_staff_photo
+    - node.type.staff_profile
+  module:
+    - text
+    - user
+id: node.staff_profile.teaser
+targetEntityType: node
+bundle: staff_profile
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_assoc_programmes: true
+  field_job_title: true
+  field_schools: true
+  field_staff_address: true
+  field_staff_bio: true
+  field_staff_email: true
+  field_staff_key_info: true
+  field_staff_name: true
+  field_staff_phone: true
+  field_staff_photo: true

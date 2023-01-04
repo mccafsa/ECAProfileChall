@@ -1,0 +1,29 @@
+uuid: 8c7474ce-eb93-4893-9048-1f75bb624e46
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - my_sub_olivero
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: my_sub_olivero_page_title
+theme: my_sub_olivero
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      staff_profile: staff_profile

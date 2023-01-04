@@ -1,0 +1,23 @@
+uuid: e71c4c65-6557-4d4c-8bbb-91b5ee5e26f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - my_sub_olivero
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: my_sub_olivero_syndicate
+theme: my_sub_olivero
+region: social
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }
