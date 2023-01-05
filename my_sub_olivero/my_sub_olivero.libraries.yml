@@ -1,0 +1,10 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+
+# global-scripts:
+#  version: VERSION
+#  js:
+#    js/schools.js: {}
